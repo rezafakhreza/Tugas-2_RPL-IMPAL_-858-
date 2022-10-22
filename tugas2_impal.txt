@@ -1,0 +1,22 @@
+public void tugas2(int com_amount){
+	float base_fee;
+	float aditional_fee;
+	if(computer_amount >=3 and computer_amount <=10){
+			base_fee = 100;
+			additional_fee = 10;
+			break;
+	}
+	else if(computer_amount>10){
+			base_fee = 500;
+			additional_fee = 10;
+			break;
+	}
+	else if(computer_amount == 1 or computer_amount == 2){
+			base_fee = 100;
+			additional_fee = 0;
+			break;
+	}
+
+	if (!contains(service_time, business_hour)) base_fee *= base_fee;
+	if (willDropOff(customer) && willPickUp(customer)) base_fee = base_fee - (base_fee*0.5);
+}		
